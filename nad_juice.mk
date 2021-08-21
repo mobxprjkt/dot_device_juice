@@ -11,7 +11,7 @@ $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USES_BLUR := true
-USE_PIXEL_CHARGING := true
+TARGET_INCLUDE_PIXEL_CHARGER := true
 
 # Gapps
 #WITH_GAPPS := true
